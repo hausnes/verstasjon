@@ -34,7 +34,7 @@ def send_data_to_thingspeak(temperatur, fukt, trykk):
     data = {'api_key': API_KEY, 'field1':temperatur, 'field2':fukt, 'field3':trykk};
     resultat = requests.post(API_URL, params=data)
     print(resultat.status_code)
-    if resultat.status_code == 200:
+    if resultat.status_code == 200: # "godkjent"
         print("Success!! Thingspeak")
     else:
         print("Fail!! Thingspeak")
