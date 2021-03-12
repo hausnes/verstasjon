@@ -4,7 +4,7 @@ import time
 import requests
 import random
 
-API_KEY  = '3BZPWB00E7V3RZWW'
+API_KEY  = '3BZPWB00E7V3RZWW' # NB: Ikkje del i ein "vanleg situasjon"
 API_URL  = 'https://api.thingspeak.com/update'
 SLEEP    = 16
 
