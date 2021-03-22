@@ -79,7 +79,7 @@ try:
         
         # Sover 5 sek mellom kvar registrering
         print("Ventar litt...\n")
-        time.sleep(5) # NB: Ikkje anbefalt maate aa gjere det paa
+        time.sleep(5) # NB: Ikkje anbefalt maate aa gjere det paa, sjå eks. 1 og ferdig versjon
         
 # Kontrollert avslutning
 except KeyboardInterrupt:
