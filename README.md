@@ -3,7 +3,7 @@ Raspberry PI-basert verstasjon som loggar til Thingspeak. Opnar for fleire alter
 
 For IM, ToF og andre som måtte vere interessert.
 
-Sensoren me tek utgangspunkt i er [Enviro HAT+](https://github.com/pimoroni/enviroplus-python). NB: Du kan lese installasjonsinstruksjonar i denne lenka.
+Sensoren me tek utgangspunkt i er [Enviro HAT+](https://github.com/pimoroni/enviroplus-python). **NB: Følg installasjonsinstruksjonar i denne lenka!**
 
 Oversikt over filene og kva dei inneheld:
 - eks1: Enkelt eksempel på korleis du kan vente mellom kvar registrering utan å bruke sleep-funksjonen. Sleep fører til potensielle problem med å lese av korrekte data (samanlikn med korleis eit kamera treng litt tid til å fokusere og registrere lysnivå før det tek bilete).
