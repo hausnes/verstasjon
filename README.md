@@ -1,4 +1,4 @@
-# verstasjon
+# Verstasjon: Enviro HAT+, Raspberry PI og Thingspeak
 Raspberry PI-basert verstasjon som loggar til Thingspeak. Opnar for fleire alternativ til logging etterkvart.
 
 For IM, ToF og andre som måtte vere interessert.
