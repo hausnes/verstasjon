@@ -1,20 +1,12 @@
-#import RPi.GPIO as GPIO
 import time
 #import dht11
 import requests
 import random
 
 # NB: Ikkje del i ein "vanleg situasjon", bytt ut og bruk DIN EIGEN KEY
-API_KEY  = '3BZPWB00E7V3RZWW' 
+API_KEY  = '3BZPWB00E7V3RZWW' # BYTT UT DENNE NØKKELEN!
 API_URL  = 'https://api.thingspeak.com/update'
 SLEEP    = 15
-
-'''
-def initialize_GPIO():
-    GPIO.setwarnings(False)
-    GPIO.setmode(GPIO.BCM)
-    GPIO.cleanup()
-'''
 
 def get_data_from_raspberry():
 	while True:
@@ -36,9 +28,9 @@ def send_data_to_thingspeak(temperatur, fukt, trykk):
     resultat = requests.post(API_URL, params=data)
     print(resultat.status_code)
     if resultat.status_code == 200: # "godkjent"
-        print("Success!! Thingspeak")
+        print("Suksess! Fekk kobla til og sendt til Thingspeak.")
     else:
-        print("Fail!! Thingspeak")
+        print("Feil, problem med å kontakte Thingspeak.")
 
 def main():
 	get_data_from_raspberry()

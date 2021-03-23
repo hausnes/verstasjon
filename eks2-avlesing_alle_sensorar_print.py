@@ -1,5 +1,6 @@
 import time
 import sys
+from datetime import datetime
 
 # Lys, avstand (proximity)
 try:
@@ -9,10 +10,9 @@ try:
 except ImportError:
     import ltr559
 
-from bme280 import BME280
-from pms5003 import PMS5003, ReadTimeoutError as pmsReadTimeoutError
+from bme280 import BME280 # Temperatur, luftfuktighet og trykk
+from pms5003 import PMS5003, ReadTimeoutError as pmsReadTimeoutError # Partikkelsensor
 from enviroplus import gas
-from datetime import datetime
 
 # BME280 sensor for temperatur/trykk/fuktigheit
 bme280 = BME280()
@@ -79,7 +79,7 @@ try:
         
         # Sover 5 sek mellom kvar registrering
         print("Ventar litt...\n")
-        time.sleep(5) # NB: Ikkje anbefalt maate aa gjere det paa, sjå eks. 1 og ferdig versjon
+        time.sleep(5) # NB: Ikkje anbefalt maate aa gjere det paa, sjaa eks. 1 og ferdig versjon
         
 # Kontrollert avslutning
 except KeyboardInterrupt:
