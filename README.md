@@ -20,6 +20,6 @@ Oversikt over filene og kva dei inneheld:
 2. Slå saman til eit ferdig program som kombinerer dei tre "teknikkane". Løysingsforslag i **verstasjon_ferdig_v1.py**.
 
 Dersom du bruker [Netlify](https://www.netlify.com) så kan du få publisert eit repository sin HTML gratis. Ein "plasshaldar"-versjon av nettsida til verstasjonen ser du her:
-[Nettside for verstasjon](https://silly-thompson-c05c3d.netlify.app/)
+[Nettside for verstasjon](https://verstasjon.netlify.app/)
 
 Kan du vise fram resultata frå Thingspeak på ein eller annan måte?
