@@ -1,7 +1,17 @@
 import mysql.connector
-# NB: Denne må installerast litt ulikt guiden frå W3, som antar du sit i Windows:
-# sudo apt-get -y install python3-mysql.connector
-# Deretter er all koden lik.
+
+''' 
+	NB: mysql.connector må installerast litt ulikt guiden frå W3, som antar du sit i Windows:
+	
+	Alternativ 1: 
+	pip3 install mysql-connector-python (eventuelt pip, altså utan 3-talet)
+	
+	Alternativ 2: 
+	sudo apt-get -y install python3-mysql.connector
+	
+	Deretter er all koden lik.
+	Før du forsøker med den resterande koden så sjekkar du om programmet køyrer berre ved å ha linje 1, med import.
+'''
 
 mydb = mysql.connector.connect(
 	host="",
