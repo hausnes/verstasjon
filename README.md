@@ -31,4 +31,5 @@ Kan du vise fram resultata frå Thingspeak på ein eller annan måte? Hint: Sjå
 Tips til korleis du kan sette opp og jobbe med MySQL-serveren (som per no køyrer på ein PI v1 i klasserommet, sjå passord på boksen). Denne tillet tilkoblingar via Workbench dersom du bruker TCP/IP saman med SSH. Sjå lenker under. 
 - https://pimylifeup.com/raspberry-pi-mysql/
 - https://howtoraspberrypi.com/enable-mysql-remote-connection-raspberry-pi/
+- https://realpython.com/python-mysql/
 - https://pimylifeup.com/raspberry-pi-phpmyadmin/
