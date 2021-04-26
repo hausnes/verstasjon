@@ -1,7 +1,7 @@
 import mysql.connector
 
 ''' 
-	NB: mysql.connector må installerast litt ulikt guiden frå W3, som antar du sit i Windows:
+	NB: mysql.connector må installerast litt ulikt [guiden frå W3](https://www.w3schools.com/python/python_mysql_getstarted.asp), som antar du sit i Windows:
 	
 	Alternativ 1: 
 	pip3 install mysql-connector-python (eventuelt pip, altså utan 3-talet)
