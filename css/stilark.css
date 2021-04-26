@@ -40,3 +40,7 @@ figure img {
         flex-basis: 100%;
     }
 }
+
+iframe {
+    margin-bottom: 20px;
+}
