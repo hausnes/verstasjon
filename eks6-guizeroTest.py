@@ -4,6 +4,9 @@ https://lawsie.github.io/guizero/blocking/
 
 Meir informasjon om å bruke fleire vindu i same appen 
 https://lawsie.github.io/guizero/window/
+
+To do: Bruke bileter
+https://lawsie.github.io/guizero/picture/
 '''
 
 from guizero import App, Text, Window, PushButton
