@@ -50,6 +50,7 @@ def send_data_til_thingspeak(temperatur, trykk, fuktighet, lys, pm1, pm25, pm10)
         print("Suksess, sendt til Thingspeak.")
     else:
         print("Feil, ikkje sendt til Thingspeak.")
+        # Bør me handtere dette? Me kan til dømes lagre i ein datastruktur (liste) og skrive innhaldet frå denne når me igjen "får kontakt"
 
 # Hentar data fraa sensorane
 def hentData():
