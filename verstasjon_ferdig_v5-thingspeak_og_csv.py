@@ -9,7 +9,6 @@ import csv
 # Endre til din nokkel
 API_KEY  = 'L59DSUZUOKBP8PEQ' # NB: Ikkje del i ein "vanleg situasjon", og ikkje bruk min nokkel!
 API_URL  = 'https://api.thingspeak.com/update'
-# PS: Kven som helst kan sjå live data på: 
 
 # Sensorar
 # Lys, avstand (proximity)
@@ -52,7 +51,7 @@ def send_data_til_thingspeak(temperatur, trykk, fuktighet, lys, pm1, pm25, pm10)
         print("Suksess, sendt til Thingspeak.")
     else:
         print("Feil, ikkje sendt til Thingspeak.")
-        # Bør me handtere dette? Me kan til dømes lagre i ein datastruktur (liste) og skrive innhaldet frå denne når me igjen "får kontakt"
+        # Boer me handtere dette? Me kan til doemes lagre i ein datastruktur (liste) og skrive innhaldet fraa denne naar me igjen "faar kontakt"
 
 # Hentar data fraa sensorane
 def hentData():
@@ -97,6 +96,8 @@ def hentData():
         listeVerdata.append(dataPM10)
 
     return listeVerdata # Returnerer svaret
+
+hentData() # Me koyrer ein uthenting umiddelbart for aa unngaa den foerste maalinga som alltid blir "paa viddene"
 
 # Programloopen, koyrer til du avsluttar med CTRL+C
 try:
