@@ -101,7 +101,7 @@ hentData() # Me koyrer ein uthenting umiddelbart for aa unngaa den foerste maali
 
 # Programloopen, koyrer til du avsluttar med CTRL+C
 try:
-    with open('verdata.csv', 'w', newline='') as f:
+    with open('verdata.csv', 'a', newline='') as f:
         writer = csv.writer(f)
         while True:
             tidNo = datetime.now()
