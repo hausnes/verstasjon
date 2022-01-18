@@ -7,7 +7,7 @@ import csv
 
 # Dine unike innstillingar for Thingspeak
 # Endre til din nokkel
-API_KEY  = 'L59DSUZUOKBP8PEQ' # NB: Ikkje del i ein "vanleg situasjon", og ikkje bruk min nokkel!
+API_KEY  = 'xxxxxxxxxxxxxxxx' # NB: Ikkje del i ein "vanleg situasjon", og ikkje bruk min nokkel!
 API_URL  = 'https://api.thingspeak.com/update'
 
 # Sensorar
